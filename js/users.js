@@ -1,4 +1,6 @@
-let user =[
+
+//DATA
+export let user =[
     {
             id: 100,	
             nikname: 'anna0',

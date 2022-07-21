@@ -1,53 +1,58 @@
 .programa{
-    width: 50rem;
-    height: 50rem;
+    /*background-color: red;*/
+    width: 450px;
+    height: 500px;
+    border: solid;
     border: 2px solid black;
 
     display: flex;
-    flex-direction:column;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    margin: auto;
-    margin-top: 10rem;
 }
 
 .programa_cj-titulo{
-    width: 30rem;
-    height: 5rem;
-    border: 1px solid black;
+    width: 300px;
+    height: 7rem;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.programa_cj-titulo span {
-    font-size: 1.5rem;
-    font-weight: 600;
-}
+    border: 2px solid black;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
 
-.Botones{
-    width: 100%;
+}
+.botones{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-
-.programa_bt{
-    width: 15rem;
-    height: 5rem;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: green;
-    margin-top: 10rem;
-    font-size: 2rem;
-    display:flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
+.programas_bt{
+    background-color: green;
+    width: 15rem;
+    height: 70px;
+    margin: 0px 10px;
+    border: solid;
+    border-color: black;
 
-.programa_bt:hover{
-    background-color: red;
-    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+}
+.programas_bt img{
+    width: 4rem;
+}
+
+.bt_ver{
+    background-color: green;
+    width: 15rem;
+    height: 7rem;
+    border: 2px solid #000;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
 }
